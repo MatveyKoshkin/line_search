@@ -1,0 +1,11 @@
+#include "Header.h"
+int main()
+{
+	int target = 15;
+	int a[] = { 15, 153, 4, 7, 9, 3, 17, 19 };
+	int lenght = sizeof(a) / sizeof(int);
+	int t = line_search(a, target, lenght);
+	printf("position %d\n", t);
+	system("pause");
+	return 0;
+}
